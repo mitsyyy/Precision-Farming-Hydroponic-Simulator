@@ -65,6 +65,8 @@ import { RouterLink } from 'vue-router';
     width: 20%;
     font-size: 1.3rem;
     text-align: center;
+    flex-shrink: 0;
+    border-right: 1px solid #233723;
 }
 
 .logo {
