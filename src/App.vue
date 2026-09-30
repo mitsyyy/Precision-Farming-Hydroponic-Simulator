@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import Dashboard from './views/Dashboard.vue'
+import Sidebar from '@/components/Sidebar.vue';
 </script>
 
 <template>
- <Dashboard />
+ <Sidebar />
+ <RouterView />
 </template>
 
 <style scoped></style>
