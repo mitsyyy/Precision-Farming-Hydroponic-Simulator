@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Core Figma Make Design System Tokens */
+  --color-background: #070e07;
+  --color-foreground: #b8d4b8;
+  --color-card: #0c160c;
+  --color-card-alt: #0a150a;
+  --color-card-active: #0c1e0c;
+  --color-card-foreground: #b8d4b8;
+  --color-primary: #39ff14;
+  --color-primary-foreground: #070e07;
+  --color-secondary: #1a3a1a;
+  --color-secondary-foreground: #39ff14;
+  --color-muted: #111e11;
+  --color-muted-foreground: #4e704e;
+  --color-dim-foreground: #3a5a3a;
+  --color-hover-foreground: #7ab87a;
+  --color-accent: #39ff14;
+  --color-accent-foreground: #070e07;
+  --color-border: #1c301c;
+  --color-border-hover: #2a4a2a;
+  --color-ring: #39ff14;
+  --color-warning: #ff8c00;
+  --color-warning-bg: #1a0e00;
+  --color-danger: #ff3333;
+  --color-danger-bg: #1a0505;
+  --color-success: #39ff14;
+  --color-success-bg: #0a1e0a;
+  --color-info: #3b9eff;
+  --color-info-bg: #0a1020;
+  --color-cyan: #39dbd0;
+  --color-purple: #cc88ff;
+  --color-slate: #8899aa;
+  --radius: 0.25rem;
+
+  /* Existing Dashboard Variables Mapped Cleanly */
+  --bg-darkest: #070e07;
+  --bg-surface: #0a150a;
+  --bg-card: #0c160c;
+  --bg-card-hover: #0f1e0f;
+  --bg-active: #0c1e0c;
+
+  --border-subtle: #1c301c;
+  --border-dim: #2a4a2a;
+  --border-highlight: #2a5a2a;
+  --border-neon: #39ff14;
+
+  --text-neon: #39ff14;
+  --text-primary: #e8ffe8;
+  --text-foreground: #b8d4b8;
+  --text-secondary: #7ab87a;
+  --text-muted: #4e704e;
+  --text-dim: #3a5a3a;
+
+  --color-warn: #ff8c00;
+  --color-warn-bg: #1a0e00;
+  --color-warn-border: rgba(255, 140, 0, 0.35);
+
+  --color-blue: #3b9eff;
+  --color-blue-bg: rgba(59, 158, 255, 0.12);
+  --color-blue-border: rgba(59, 158, 255, 0.35);
+
+  --color-purple-bg: rgba(204, 136, 255, 0.12);
+  --color-purple-border: rgba(204, 136, 255, 0.35);
+
+  --color-slate-bg: rgba(136, 153, 170, 0.12);
+  --color-slate-border: rgba(136, 153, 170, 0.35);
+
+  --glow-neon: 0 0 10px rgba(57, 255, 20, 0.35);
+  --glow-neon-strong: 0 0 16px rgba(57, 255, 20, 0.55);
+  --glow-warn: 0 0 10px rgba(255, 140, 0, 0.35);
+
+  --font-main: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'DM Mono', 'Courier Prime', monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #1c301c transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #1c301c;
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #2a4a2a;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+input[type="range"] {
+  accent-color: #39ff14;
+}
