@@ -1,0 +1,57 @@
+{
+  "activePlotId": "plot-1",
+  "plots": [
+    {
+      "id": "plot-1",
+      "zoneName": "ZONE A",
+      "cropName": "Basil (Genovese)",
+      "plotKey": "ZONE A",
+      "name": "Basil (Genovese)",
+      "stage": "VEGE",
+      "stageFullName": "VEGETATIVE",
+      "day": 11,
+      "totalDays": 28,
+      "health": 73,
+      "colorType": "green"
+    },
+    {
+      "id": "plot-2",
+      "zoneName": "ZONE B",
+      "cropName": "Lettuce (Butterhead)",
+      "plotKey": "ZONE B",
+      "name": "Lettuce (Butterhead)",
+      "stage": "FLOW",
+      "stageFullName": "FLOWERING",
+      "day": 8,
+      "totalDays": 21,
+      "health": 88,
+      "colorType": "blue"
+    },
+    {
+      "id": "plot-3",
+      "zoneName": "ZONE C",
+      "cropName": "Spinach (Savoy)",
+      "plotKey": "ZONE C",
+      "name": "Spinach (Savoy)",
+      "stage": "SEED",
+      "stageFullName": "SEEDLING",
+      "day": 5,
+      "totalDays": 14,
+      "health": 97,
+      "colorType": "slate"
+    },
+    {
+      "id": "plot-4",
+      "zoneName": "ZONE D",
+      "cropName": "Cherry Tomato",
+      "plotKey": "ZONE D",
+      "name": "Cherry Tomato",
+      "stage": "GERM",
+      "stageFullName": "GERMINATION",
+      "day": 3,
+      "totalDays": 7,
+      "health": 92,
+      "colorType": "purple"
+    }
+  ]
+}
