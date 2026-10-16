@@ -1,0 +1,68 @@
+[
+  {
+    "id": "sensor-ph",
+    "title": "PH LEVEL",
+    "value": "6.29",
+    "unit": "pH",
+    "percentage": 65,
+    "optimal": "OPT: 5.5-6.5",
+    "status": "OK",
+    "isWarning": false,
+    "sparkline": "M 2 20 L 14 16 L 26 22 L 38 18 L 52 24 L 66 18 L 80 25 L 96 18"
+  },
+  {
+    "id": "sensor-ec",
+    "title": "CONDUCTIVITY",
+    "value": "1.82",
+    "unit": "mS/cm",
+    "percentage": 50,
+    "optimal": "OPT: 1.8-2.5",
+    "status": "OK",
+    "isWarning": false,
+    "sparkline": "M 2 12 L 96 26"
+  },
+  {
+    "id": "sensor-temp",
+    "title": "TEMPERATURE",
+    "value": "22.4",
+    "unit": "°C",
+    "percentage": 58,
+    "optimal": "OPT: 20-26",
+    "status": "OK",
+    "isWarning": false,
+    "sparkline": "M 2 18 Q 25 14, 45 18 T 75 18 Q 88 20, 96 26"
+  },
+  {
+    "id": "sensor-water",
+    "title": "WATER LEVEL",
+    "value": "68",
+    "unit": "%",
+    "percentage": 68,
+    "optimal": "OPT: 60-90",
+    "status": "OK",
+    "isWarning": false,
+    "sparkline": "M 2 14 L 96 26"
+  },
+  {
+    "id": "sensor-humidity",
+    "title": "HUMIDITY",
+    "value": "72",
+    "unit": "%RH",
+    "percentage": 72,
+    "optimal": "OPT: 55-75",
+    "status": "OK",
+    "isWarning": false,
+    "sparkline": "M 2 14 L 96 26"
+  },
+  {
+    "id": "sensor-light",
+    "title": "LIGHT INTENSITY",
+    "value": "26.2",
+    "unit": "klux",
+    "percentage": 52,
+    "optimal": "OPT: 20-55k",
+    "status": "OK",
+    "isWarning": false,
+    "sparkline": "M 2 24 L 14 26 L 24 16 L 36 22 L 48 18 L 62 25 L 74 16 L 86 24 L 96 20"
+  }
+]
