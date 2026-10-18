@@ -1,0 +1,39 @@
+{
+  "systemControls": [
+    {
+      "id": "pump",
+      "name": "Circulation Pump",
+      "active": false,
+      "activeText": "2.4 L/min",
+      "inactiveText": "Inactive"
+    },
+    {
+      "id": "lights",
+      "name": "Grow Lights",
+      "active": false,
+      "activeText": "Active (18h)",
+      "inactiveText": "Off"
+    },
+    {
+      "id": "fan",
+      "name": "Ventilation Fan",
+      "active": false,
+      "activeText": "Running (Med)",
+      "inactiveText": "Off"
+    },
+    {
+      "id": "dosing",
+      "name": "Auto Dosing",
+      "active": false,
+      "activeText": "Active",
+      "inactiveText": "Scheduled"
+    }
+  ],
+  "flowControl": {
+    "rate": 0.0,
+    "min": 0.0,
+    "max": 5.0,
+    "step": 0.1,
+    "unit": "L/min"
+  }
+}
