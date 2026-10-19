@@ -1,0 +1,26 @@
+[
+  {
+    "id": "solution",
+    "name": "Nutrient Solution",
+    "percentage": 64,
+    "isWarning": false
+  },
+  {
+    "id": "reservoir",
+    "name": "Reservoir A",
+    "percentage": 88,
+    "isWarning": false
+  },
+  {
+    "id": "filter",
+    "name": "Filter B",
+    "percentage": 48,
+    "isWarning": true
+  },
+  {
+    "id": "uv",
+    "name": "UV Sterilizer",
+    "percentage": 91,
+    "isWarning": false
+  }
+]
