@@ -1,0 +1,23 @@
+{
+  "sensorConfig": [
+    { "key": "temperature", "label": "Temperature", "unit": "°C", "min": 15, "max": 35, "step": 0.1, "safe": [20, 26] },
+    { "key": "ph", "label": "pH Level", "unit": " pH", "min": 4.5, "max": 7.5, "step": 0.05, "safe": [5.5, 6.5] },
+    { "key": "waterLevel", "label": "Water Level", "unit": "%", "min": 0, "max": 100, "step": 1, "safe": [60, 90] },
+    { "key": "nutrientLevel", "label": "Nutrient Level", "unit": "%", "min": 0, "max": 100, "step": 1, "safe": [72, 95] },
+    { "key": "lightIntensity", "label": "Light Intensity", "unit": " klux", "min": 0, "max": 45, "step": 0.5, "safe": [20, 38] }
+  ],
+  "flowSteps": [
+    { "num": "01", "title": "User Changes Condition", "sub": "Adjust a control switch or slider", "icon": "sliders" },
+    { "num": "02", "title": "Simulator Detects Change", "sub": "Virtual sensor reading updates", "icon": "radio" },
+    { "num": "03", "title": "System Evaluates Condition", "sub": "Checks against safe ranges", "icon": "search" },
+    { "num": "04", "title": "Automation Triggers", "sub": "Pump / Light / Cooler responds", "icon": "zap" },
+    { "num": "05", "title": "Simulated Condition Changes", "sub": "Control physics drive sensor values", "icon": "trend" },
+    { "num": "06", "title": "System Stabilizes at Target", "sub": "Safe threshold maintained", "icon": "check" }
+  ],
+  "simulatedDevices": [
+    { "key": "waterPump", "label": "Circulation Pump", "desc": "Synced with Flow Rate (0.0–5.0 L/min)" },
+    { "key": "growLight", "label": "Grow Lights", "desc": "Drives light (25–35 klux) & +0.1°C/tick" },
+    { "key": "coolingSystem", "label": "Ventilation Fan", "desc": "Cools -0.15°C & -0.5% RH/tick" },
+    { "key": "nutrientPump", "label": "Auto Dosing", "desc": "Pulls pH -> 6.0 & EC -> 2.1 mS/cm" }
+  ]
+}
