@@ -1,0 +1,65 @@
+{
+  "crops": [
+    {
+      "name": "Basil",
+      "icon": "basil",
+      "stage": "Vegetative",
+      "temp": "18–26°C",
+      "ph": "5.5–6.5",
+      "nutrients": "60–80%",
+      "light": "500–800 lux",
+      "days": 28,
+      "desc": "Fast-growing culinary herb ideal for NFT and DWC hydroponic systems."
+    },
+    {
+      "name": "Lettuce",
+      "icon": "lettuce",
+      "stage": "Early Growth",
+      "temp": "15–22°C",
+      "ph": "6.0–6.5",
+      "nutrients": "50–70%",
+      "light": "400–600 lux",
+      "days": 21,
+      "desc": "Cool-season leafy green with rapid growth and low nutrient demand."
+    },
+    {
+      "name": "Kale",
+      "icon": "kale",
+      "stage": "Vegetative",
+      "temp": "16–24°C",
+      "ph": "5.5–6.8",
+      "nutrients": "65–85%",
+      "light": "500–750 lux",
+      "days": 35,
+      "desc": "Hardy nutrient-dense green that tolerates a wide range of conditions."
+    },
+    {
+      "name": "Tomato",
+      "icon": "tomato",
+      "stage": "Seedling",
+      "temp": "20–28°C",
+      "ph": "5.8–6.3",
+      "nutrients": "70–90%",
+      "light": "600–900 lux",
+      "days": 60,
+      "desc": "Fruiting crop requiring high light intensity and consistent nutrient dosing."
+    },
+    {
+      "name": "Strawberry",
+      "icon": "strawberry",
+      "stage": "Mature",
+      "temp": "18–25°C",
+      "ph": "5.5–6.2",
+      "nutrients": "60–75%",
+      "light": "550–850 lux",
+      "days": 45,
+      "desc": "Compact fruiting plant well-suited to vertical tower hydroponic setups."
+    }
+  ],
+  "stages": [
+    { "name": "Seedling", "days": "Days 1–7", "desc": "Germination & root establishment. Low nutrient concentration.", "pct": 25 },
+    { "name": "Early Growth", "days": "Days 8–14", "desc": "First true leaves emerge. Increase light and nutrient levels.", "pct": 50 },
+    { "name": "Vegetative", "days": "Days 15–24", "desc": "Rapid canopy expansion. Peak water and nitrogen uptake.", "pct": 75 },
+    { "name": "Mature", "days": "Days 25–28+", "desc": "Ready for harvest. Maintain stable pH and flush excess salts.", "pct": 100 }
+  ]
+}
