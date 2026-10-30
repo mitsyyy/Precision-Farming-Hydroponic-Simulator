@@ -1,0 +1,10 @@
+{
+  "ranges": ["Last 24h", "Last 7d", "Last 30d"],
+  "charts": [
+    { "key": "temp", "label": "Temperature (°C)", "color": "#39ff14", "unit": "°C", "safe": [18, 28] },
+    { "key": "ph", "label": "pH Level", "color": "#39dbd0", "unit": "", "safe": [5.5, 6.5] },
+    { "key": "water", "label": "Water Level (%)", "color": "#3b9eff", "unit": "%", "safe": [30, 90] },
+    { "key": "nutrients", "label": "Nutrient Level (%)", "color": "#cc88ff", "unit": "%", "safe": [50, 95] },
+    { "key": "growth", "label": "Plant Growth (%)", "color": "#ff8c00", "unit": "%", "safe": [0, 100] }
+  ]
+}
