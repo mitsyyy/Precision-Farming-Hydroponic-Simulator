@@ -1,0 +1,57 @@
+{
+  "rules": [
+    {
+      "category": "Water Level",
+      "icon": "droplet",
+      "color": "#3b9eff",
+      "items": [
+        { "condition": "Water Level < 30%", "action": "Activate Water Pump", "status": "Active" },
+        { "condition": "Water Level >= 80%", "action": "Deactivate Water Pump", "status": "Active" }
+      ]
+    },
+    {
+      "category": "Temperature",
+      "icon": "thermometer",
+      "color": "#ff8c00",
+      "items": [
+        { "condition": "Temperature > 32°C", "action": "Activate Cooling System", "status": "Active" },
+        { "condition": "Temperature <= 29°C", "action": "Deactivate Cooling System", "status": "Active" }
+      ]
+    },
+    {
+      "category": "pH Level",
+      "icon": "flask",
+      "color": "#39dbd0",
+      "items": [
+        { "condition": "pH < 5.5", "action": "Warn: \"pH too low — adjust upward\"", "status": "Active" },
+        { "condition": "pH > 6.5", "action": "Warn: \"pH too high — adjust downward\"", "status": "Active" }
+      ]
+    },
+    {
+      "category": "Nutrients",
+      "icon": "beaker",
+      "color": "#22e532",
+      "items": [
+        { "condition": "Nutrient Level < 50%", "action": "Activate Nutrient Pump", "status": "Active" },
+        { "condition": "Nutrient Level >= 80%", "action": "Deactivate Nutrient Pump", "status": "Active" }
+      ]
+    },
+    {
+      "category": "Light Intensity",
+      "icon": "sun",
+      "color": "#cc88ff",
+      "items": [
+        { "condition": "Light Intensity < 400 lux", "action": "Activate Grow Light", "status": "Active" },
+        { "condition": "Light Intensity >= 400 lux", "action": "Deactivate Grow Light", "status": "Active" }
+      ]
+    }
+  ],
+  "history": [
+    { "time": "10:52 AM", "rule": "Temperature <= 29°C", "action": "Cooling System OFF", "result": "Resolved" },
+    { "time": "10:47 AM", "rule": "Water Level >= 80%", "action": "Water Pump OFF", "result": "Resolved" },
+    { "time": "10:42 AM", "rule": "Water Level < 30%", "action": "Water Pump ON", "result": "Active" },
+    { "time": "10:38 AM", "rule": "pH > 6.5", "action": "Warning issued", "result": "Warning" },
+    { "time": "10:22 AM", "rule": "Nutrient Level < 50%", "action": "Nutrient Pump ON", "result": "Resolved" },
+    { "time": "10:05 AM", "rule": "Temperature > 32°C", "action": "Cooling System ON", "result": "Resolved" }
+  ]
+}
