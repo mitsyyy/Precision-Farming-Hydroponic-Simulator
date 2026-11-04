@@ -1,0 +1,38 @@
+{
+  "initialAlerts": [
+    {
+      "id": 1,
+      "type": "resolved",
+      "title": "Temperature Normalized",
+      "description": "Temperature returned to the recommended range (20–30°C).",
+      "time": "10:52 AM"
+    },
+    {
+      "id": 2,
+      "type": "warning",
+      "title": "pH Level High",
+      "description": "pH increased to 7.1. Recommended range: 5.5–6.5.",
+      "time": "10:38 AM"
+    },
+    {
+      "id": 3,
+      "type": "warning",
+      "title": "Water Level Low",
+      "description": "Water level dropped to 25%. Water pump automatically activated.",
+      "time": "10:42 AM"
+    },
+    {
+      "id": 4,
+      "type": "info",
+      "title": "Simulation Started",
+      "description": "Farm simulation initialized with Basil crop profile.",
+      "time": "09:00 AM"
+    }
+  ],
+  "initialEvents": [
+    { "time": "10:52 AM", "message": "Temperature returned to normal range", "type": "success" },
+    { "time": "10:47 AM", "message": "Water level reached 80% — Pump stopped", "type": "success" },
+    { "time": "10:42 AM", "message": "Water level became low — Pump activated", "type": "warning" }
+  ]
+}
+
