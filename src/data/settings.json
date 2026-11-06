@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "section": "Simulation Settings",
+      "items": [
+        { "label": "Simulation Speed", "desc": "How fast virtual time progresses", "type": "select", "val": "1x (Real-time)", "options": ["1x (Real-time)", "5x (Accelerated)", "10x (Turbo)"] },
+        { "label": "Auto-Pause on Critical Alert", "desc": "Pause simulation when a critical threshold is breached", "type": "toggle", "val": false },
+        { "label": "Random Sensor Drift", "desc": "Simulate natural fluctuations in temperature, pH, and light", "type": "toggle", "val": true }
+      ]
+    },
+    {
+      "section": "Notification Preferences",
+      "items": [
+        { "label": "Low Water Alerts", "desc": "Notify when water drops below 60%", "type": "toggle", "val": true },
+        { "label": "pH Imbalance Alerts", "desc": "Notify when pH exits 5.5–6.5 range", "type": "toggle", "val": true },
+        { "label": "Temperature Alerts", "desc": "Notify when temperature exceeds 26°C", "type": "toggle", "val": true },
+        { "label": "Nutrient Depletion Alerts", "desc": "Notify when nutrients drop below 50%", "type": "toggle", "val": true }
+      ]
+    },
+    {
+      "section": "Display & Units",
+      "items": [
+        { "label": "Temperature Unit", "desc": "Display temperature in Celsius or Fahrenheit", "type": "select", "val": "Celsius (°C)", "options": ["Celsius (°C)", "Fahrenheit (°F)"] },
+        { "label": "Time Format", "desc": "Clock display in header and logs", "type": "select", "val": "24-hour", "options": ["12-hour", "24-hour"] },
+        { "label": "Show Safe Range Overlays", "desc": "Highlight optimal zones on charts and sliders", "type": "toggle", "val": true }
+      ]
+    }
+  ],
+  "about": {
+    "code": "FS",
+    "name": "FARMSIM",
+    "subtitle": "Precision Farming & Automated Hydroponic Simulator",
+    "metadata": [
+      { "label": "Version", "val": "v2.4.1 (Simulation Build)" },
+      { "label": "Mode", "val": "Virtual / Closed-Loop Automation" },
+      { "label": "Sensor Engine", "val": "6-Step Reactive Loop (1x / 5x / 10x)" },
+      { "label": "Active Profile", "val": "ADMIN — System Administrator" }
+    ]
+  }
+}
